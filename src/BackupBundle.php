@@ -2,7 +2,8 @@
 
 namespace Hawk;
 
-class BackupBundle
-{
+use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
+class BackupBundle extends AbstractBundle
+{   
 }
