@@ -1,0 +1,24 @@
+{
+  "name": "thehawk970/backup-bundle",
+  "description": "Backup and restore entity content",
+  "type": "symfony-bundle",
+  "require": {
+    "php": ">=8.0",
+    "symfony/framework-bundle": "^5.2",
+    "symfony/console": "^6.1",
+    "symfony/finder": "^6.1",
+    "symfony/orm-pack": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hawk\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Gebler",
+      "email": "me@davegebler.com"
+    }
+  ]
+}
