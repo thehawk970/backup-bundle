@@ -1,6 +1,6 @@
 <?php
 
-namespace Hawk\Backup;
+namespace Hawk\BackupBundle\BackupBundle\Backup;
 
 use Symfony\Component\Console\Formatter\OutputFormatterStyle;
 use Symfony\Component\Console\Output\OutputInterface;

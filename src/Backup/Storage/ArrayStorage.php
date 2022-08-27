@@ -1,6 +1,6 @@
 <?php
 
-namespace Hawk\Backup\Storage;
+namespace Hawk\BackupBundle\BackupBundle\Backup\Storage;
 
 class ArrayStorage
 {

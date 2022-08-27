@@ -1,9 +1,9 @@
 <?php
 
-namespace Hawk\Backup\Save;
+namespace Hawk\BackupBundle\BackupBundle\Backup\Save;
 
 use Doctrine\ORM\EntityManagerInterface;
-use Hawk\Backup\Queue;
+use Hawk\BackupBundle\BackupBundle\Backup\Queue;
 
 class Save
 {

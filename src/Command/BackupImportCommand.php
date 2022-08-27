@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Hawk\Command;
+namespace Hawk\BackupBundle\Command;
 
-use Hawk\Backup\Read\Reader;
+use Hawk\BackupBundle\BackupBundle\Backup\Read\Reader;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

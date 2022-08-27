@@ -1,9 +1,9 @@
 <?php
 
-namespace Hawk\Backup\Save;
+namespace Hawk\BackupBundle\BackupBundle\Backup\Save;
 
-use Hawk\Backup\Log;
-use Hawk\Backup\Utils;
+use Hawk\BackupBundle\BackupBundle\Backup\Log;
+use Hawk\BackupBundle\BackupBundle\Backup\Utils;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Yaml\Yaml;
 

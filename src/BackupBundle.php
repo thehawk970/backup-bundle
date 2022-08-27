@@ -1,6 +1,6 @@
 <?php
 
-namespace Hawk;
+namespace Hawk\BackupBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,14 +1,14 @@
 <?php
 
-namespace Hawk\Backup\Read;
+namespace Hawk\BackupBundle\BackupBundle\Backup\Read;
 
 use Doctrine\ORM\EntityManagerInterface;
-use Hawk\Backup\Log;
-use Hawk\Backup\Operator\Operator;
-use Hawk\Backup\Operator\RefOperator;
-use Hawk\Backup\Storage\EntityStack;
-use Hawk\Backup\Storage\PreFetch;
-use Hawk\Backup\Storage\Stack;
+use Hawk\BackupBundle\BackupBundle\Backup\Log;
+use Hawk\BackupBundle\BackupBundle\Backup\Operator\Operator\Operator;
+use Hawk\BackupBundle\BackupBundle\Backup\Operator\Operator\RefOperator;
+use Hawk\BackupBundle\BackupBundle\Backup\Storage\EntityStack;
+use Hawk\BackupBundle\BackupBundle\Backup\Storage\PreFetch;
+use Hawk\BackupBundle\BackupBundle\Backup\Storage\Stack;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Yaml\Yaml;
 

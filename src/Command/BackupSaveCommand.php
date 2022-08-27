@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace App\Command;
+namespace Hawk\BackupBundle\Command;
 
-use Hawk\Backup\Save\Save;
-use Hawk\Backup\Save\Writer;
+use Hawk\BackupBundle\BackupBundle\Backup\Save\Save;
+use Hawk\BackupBundle\BackupBundle\Backup\Save\Writer;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Hawk\Backup\Save;
+namespace Hawk\BackupBundle\BackupBundle\Backup\Save;
 
 use Doctrine\ORM\PersistentCollection;
-use Hawk\Backup\Operator\DateOperator;
-use Hawk\Backup\Operator\Operator;
-use Hawk\Backup\Operator\RefOperator;
-use Hawk\Backup\Queue;
-use Hawk\Backup\Utils;
+use Hawk\BackupBundle\BackupBundle\Backup\Operator\Operator\DateOperator;
+use Hawk\BackupBundle\BackupBundle\Backup\Operator\Operator\Operator;
+use Hawk\BackupBundle\BackupBundle\Backup\Operator\Operator\RefOperator;
+use Hawk\BackupBundle\BackupBundle\Backup\Queue;
+use Hawk\BackupBundle\BackupBundle\Backup\Utils;
 use function PHPUnit\Framework\equalTo;
 
 class Entity

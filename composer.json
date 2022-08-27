@@ -11,7 +11,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Hawk\\": "src/"
+      "Hawk\\BackupBundle": "src/"
     }
   },
   "license": "MIT",

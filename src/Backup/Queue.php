@@ -1,6 +1,6 @@
 <?php
 
-namespace Hawk\Backup;
+namespace Hawk\BackupBundle\BackupBundle\Backup;
 
 class Queue
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hawk\Backup\Operator;
+namespace Hawk\BackupBundle\BackupBundle\Backup\Operator\Operator;
 
 class Operator
 {
